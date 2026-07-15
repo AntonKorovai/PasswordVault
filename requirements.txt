@@ -1,0 +1,13 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+pyjwt>=2.8.0
+cryptography>=41.0.0
+requests>=2.31.0
+
+# Dipendenze per il Database PostgreSQL
+psycopg2-binary>=2.9.7
+sqlalchemy>=2.0.0
+
+# Dipendenze per la gestione dello stato in RAM
+redis>=5.0.0
